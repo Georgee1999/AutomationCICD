@@ -17,6 +17,9 @@ import java.util.List;
 public class StandAloneTest {
 
     public static void main(String[]args) throws InterruptedException {
+
+        //new comments are added
+
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
